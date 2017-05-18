@@ -54,6 +54,7 @@
 			<nav>
 				<ul>
 					<li><a href="{{ url('news') }}" {% if craft.request.firstSegment == 'news' %}class="active"{% endif %}>News</a></li>
+                    <li><a href="{{ url('contact') }}" {% if craft.request.firstSegment == 'contact' %}class="active"{% endif %}>Contact</a></li>
 				</ul>
 			</nav>
 		</header>
